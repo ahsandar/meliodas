@@ -1,0 +1,42 @@
+.git
+.dockerignore
+.byebug_history
+log/*
+tmp/*
+env.list*
+.gitignore
+.tool-version
+.DS_Store
+_build/
+deps/
+.git/
+Dockerfile
+Makefile
+README*
+scripts/
+tabs/
+.env
+.env.*
+env.*
+.elixir_ls
+.git
+.tool-version
+assets/node_modules
+deps
+_build
+
+# .dockerignore
+.git
+Dockerfile
+
+# Mix artifacts
+_build
+deps
+*.ez
+
+# Generate on crash by the VM
+erl_crash.dump
+
+# Static artifacts
+node_modules
+priv/static

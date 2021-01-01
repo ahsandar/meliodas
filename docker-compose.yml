@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  meliodas:
+    build:
+      context: .
+      args:
+        MIX_ENV: "${MIX_ENV}"
+        SPEEDTESTARCH: "${SPEEDTESTARCH}" #x86_64/ armhf
+    image: darnahsan/meliodas
+    restart: on-failure
+    ports:
+      - "4000:4000"
+    environment:
+      MIX_ENV: "${MIX_ENV}"

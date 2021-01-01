@@ -1,0 +1,11 @@
+ <div class="card border border-success text-white bg-dark">
+   <div class="card-header text-muted">
+     Clock
+   </div>
+   <div class="card-body text-center">
+     <p class="card-title text-success display-1"><%= NimbleStrftime.format(@date, "%H:%M:%S") %></p>
+     <h2 class="card-text text-secondary"><%= NimbleStrftime.format(@date, "%A") %></h2><h2 class="card-text text-info"><%= NimbleStrftime.format(@date, "%d %B") %>, <%= NimbleStrftime.format(@date, "%Y") %></h2>
+     <div class="card-footer text-muted">
+       <small class="text-muted">Last updated at Just Now </small></div>
+   </div>
+ </div>

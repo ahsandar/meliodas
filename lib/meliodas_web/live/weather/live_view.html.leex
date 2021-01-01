@@ -1,0 +1,14 @@
+<div class="card border border-success text-white bg-dark">
+  <div class="card-header text-muted">
+    Weather
+  </div>
+  <div class="card-body text-center">
+    <div class="card-title text-primary display-3"><%=@forecast.location%></div>
+    (<%=@forecast.latitude%>, <%=@forecast.longitude%>)
+    <p class="card-text text-success display-3"><%=@forecast.temp%>&#8451</p>
+    <h2 class="card-text text-secondary"><%=@forecast.weather_desc%></h2>
+    <h2 class="card-text text-white">Feels like <span class="text-warning"><%=@forecast.feels_like%>&#8451</span></h2>
+    <div class="card-footer text-muted">
+      <small class="text-muted">Last updated at <%=@updated_at%> </small></div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<%= live_render(@conn, MeliodasWeb.Weather.LiveView) %>
+
+<%= live_render(@conn, MeliodasWeb.Forex.LiveView) %>
+
+<%= live_render(@conn, MeliodasWeb.Clock.LiveView) %>
+
+<%= live_render(@conn, MeliodasWeb.Apify.LiveView) %>
+
+<%= live_render(@conn, MeliodasWeb.Speedtest.LiveView) %>
+
+<%= live_render(@conn, MeliodasWeb.Rss.LiveView) %>

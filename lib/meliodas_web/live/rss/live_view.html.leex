@@ -1,0 +1,15 @@
+<div class="card border border-success text-white bg-dark">
+  <div class="card-header text-muted">
+    RSS
+  </div>
+  <div class="card-body w-100">
+  <div class="card-title text-warning text-center display-3">NEWS</div>
+   <ul class="list-group list-group-flush">
+    <%= for title <- @feed do%>
+      <li class="List-group-item text-uppercase"><h4 class="text-white"><%=title%></h4></li>
+    <%end%>
+    </ul>
+    <div class="card-footer text-muted text-center">
+      <small class="text-muted">Last updated at <%=@updated_at%> </small></div>
+  </div>
+</div>

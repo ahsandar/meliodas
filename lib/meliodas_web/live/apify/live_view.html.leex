@@ -1,0 +1,48 @@
+<div class="card border border-success text-white bg-dark">
+  <div class="card-header text-muted">
+    Coronavirus
+  </div>
+  <div class="card-body">
+    <div class="card-title text-danger text-center display-3">COVID-19</div>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col" class="text-nowrap text-uppercase">
+            <h4 class="text-primary">Country</h4>
+          </th>
+          <th scope="col" class="ml-3">
+            <h4 class="text-warning text-uppercase">Infected</h4>
+          </th>
+          <th scope="col" class="ml-3">
+            <h4 class="text-success text-uppercase">Recovered</h4>
+          </th>
+          <th scope="col" class="ml-3">
+            <h4 class="text-danger text-uppercase">Deceased</h4>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= for c <- @count do%>
+        <tr>
+          <th scope="row" class="text-nowrap text-uppercase">
+            <h4 class="text-secondary"><%=c["country"]%></h4>
+          </th>
+          <td class="ml-3">
+            <h4 class="text-info"><%=c["infected"]%></h4>
+          </td>
+          <td class="ml-3">
+            <h4 class="text-info"><%=c["recovered"]%></h4>
+          </td>
+          <td class="ml-3">
+            <h4 class="text-info"><%=c["deceased"]%></h4>
+          </td>
+        </tr>
+        <%end%>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card-footer text-muted  text-center">
+    <small class="text-muted">Last updated at <%=@updated_at%> </small>
+  </div>
+</div>

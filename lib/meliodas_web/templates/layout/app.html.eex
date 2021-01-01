@@ -1,0 +1,8 @@
+<div>
+</div>
+  <div class="container-fluid">
+    <div class="card-columns">
+      <%= @inner_content %>
+    </div>
+  </div>
+</div>

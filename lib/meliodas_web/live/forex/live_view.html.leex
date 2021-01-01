@@ -1,0 +1,86 @@
+  <div class="card border border-success text-white bg-dark" m-3>
+    <div class="card-header text-muted">
+      Forex
+    </div>
+    <div class="card-body">
+      <div class="card-title text-muted display-3 text-uppercase text-center">Currency</div>
+      <table class="table table-sm">
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">USD</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["USD"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">GBP</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["GBP"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">EUR</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["EUR"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">SGD</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["SGD"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">MYR</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["MYR"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">CNY</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["CNY"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">AED</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["AED"]%></h3>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h3 class="text-primary"><span class="text-warning">BTC</span><span class="text-secondary"> -></span>
+                <span class="text-success">PKR</span> </h3>
+            </th>
+            <th>
+              <h3 class="text-danger text-right"><%=@rates["BTC"]%></h3>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <div class="card-footer text-muted text-center">
+        <small class="text-muted">Last updated at <%=@updated_at%> </small></div>
+    </div>
+  </div>
