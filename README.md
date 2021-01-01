@@ -38,6 +38,6 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Signup to `Sentry` and add `dsn` in config if required
 
-If you get to use it please don't forget to add it to your credits. Thanks
+`If you get to use it please don't forget to add it to your credits. Thanks`
 
 ![Image](/assets/static/images/seven_deadly_sins.jpeg)
