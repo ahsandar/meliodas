@@ -28,6 +28,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 * https://github.com/chrismccord/phoenix_live_view_example
 * https://github.com/brennentsmith/internet-speed-logger
 * https://www.kabisa.nl/tech/real-world-phoenix-of-groter-dan-a-liveview-dashboard/
+* https://medium.com/@toddresudek/building-a-smart-mirror-with-phoenix-liveview-18193ee6438f
 
 ## API credits
 * https://apify.com/covid-19
